@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literasi Digital | Cyber Bullying & Hoaks</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:#f8fafc;
+  line-height:1.8;
+}
+
+/* NAVBAR */
+nav{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#020617;
+  padding:15px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h2{
+  color:#38bdf8;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  transition:0.3s;
+}
+
+nav ul li a:hover{
+  color:#38bdf8;
+}
+
+/* HERO */
+.hero{
+  padding:120px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#191f2c,#1e40af);
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero p{
+  margin-top:15px;
+  font-size:1.2rem;
+}
+
+/* SECTION */
+section{
+  padding:70px 15%;
+}
+
+section h2{
+  color:#38bdf8;
+  margin-bottom:20px;
+  font-size:2rem;
+}
+
+section h3{
+  margin-top:30px;
+  color:#7dd3fc;
+}
+
+section p{
+  margin-top:15px;
+}
+
+ul{
+  margin-top:15px;
+  margin-left:20px;
+}
+
+li{
+  margin-bottom:8px;
+}
+
+/* IMAGE */
+img{
+  width:100%;
+  border-radius:15px;
+  margin-top:25px;
+}
+
+/* PROFILE */
+.profile-img{
+  width:200px;
+  border-radius:50%;
+  display:block;
+  margin:20px auto;
+}
+
+/* INFO BOX */
+.info-box{
+  background:#1e293b;
+  padding:25px;
+  margin-top:25px;
+  border-left:5px solid #38bdf8;
+  border-radius:10px;
+}
+
+.warning{
+  border-left:5px solid #f87171;
+}
+
+/* ANIMATION */
+.fade{
+  opacity:0;
+  transform:translateY(30px);
+  transition:1s ease;
+}
+
+.fade.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#020617;
+  margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>Literasi Digital</h2>
+  <ul>
+    <li><a href="#profil">Profil</a></li>
+    <li><a href="#pendahuluan">Pendahuluan</a></li>
+    <li><a href="#cyberbullying">Cyber Bullying</a></li>
+    <li><a href="#hoaks">Hoaks</a></li>
+    <li><a href="#pencegahan">Pencegahan</a></li>
+    <li><a href="#kesimpulan">Kesimpulan</a></li>
+    <li><a href="#referensi">Referensi</a></li>
+  </ul>
+</nav>
+
+<div class="hero fade">
+  <h1>Literasi Digital</h1>
+  <p>Cyber Bullying & Hoaks di Era Digital</p>
+</div>
+
+<!-- PROFIL -->
+<section id="profil" class="fade">
+<h2>Profil Penulis</h2>
+<img class="profile-img" src="c:\Users\ADVAN\Downloads\WhatsApp Image 2025-12-25 at 11.01.43.jpeg">
+<p>
+Nama saya <b>Bintang Jagad Sektiaji</b>, <b>NIM : 25.230.0098</b>, seorang mahasiswa <b>Instituy Widya Pratama Pekalongan</b>, yang memiliki
+ketertarikan dalam bidang teknologi informasi dan literasi digital.
+Website ini dibuat sebagai media edukasi untuk meningkatkan kesadaran
+masyarakat terhadap pentingnya etika dan tanggung jawab dalam
+menggunakan teknologi digital.
+</p>
+</section>
+
+<!-- PENDAHULUAN -->
+<section id="pendahuluan" class="fade">
+<h2>Pendahuluan</h2>
+<p>
+Perkembangan teknologi digital telah membawa perubahan besar dalam
+kehidupan manusia, khususnya dalam cara berkomunikasi dan memperoleh
+informasi. Internet dan media sosial memberikan kemudahan akses
+informasi, namun juga menimbulkan berbagai permasalahan baru.
+</p>
+<p>
+Cyber bullying dan hoaks merupakan dua tantangan utama dalam era digital
+yang dapat berdampak negatif terhadap individu dan masyarakat.
+Oleh karena itu, literasi digital menjadi keterampilan penting agar
+masyarakat mampu berpikir kritis, etis, dan bertanggung jawab.
+</p>
+
+<div class="info-box">
+<b>Tujuan Website:</b>
+<ul>
+  <li>Memberikan pemahaman mendalam tentang cyber bullying</li>
+  <li>Menjelaskan bahaya dan karakteristik hoaks</li>
+  <li>Mendorong penggunaan media digital secara bijak</li>
+</ul>
+</div>
+
+<img src="c:\Users\ADVAN\Downloads\images (2).jpg">
+</section>
+
+<!-- CYBER BULLYING -->
+<section id="cyberbullying" class="fade">
+<h2>Cyber Bullying</h2>
+<p>
+Cyber bullying adalah tindakan perundungan yang dilakukan melalui media
+digital seperti media sosial, aplikasi pesan instan, dan platform online
+lainnya. Perilaku ini sering dilakukan secara berulang dan bertujuan
+untuk menyakiti korban.
+</p>
+
+<h3>Bentuk Cyber Bullying</h3>
+<ul>
+  <li>Menghina dan mengejek di media sosial</li>
+  <li>Penyebaran foto atau video tanpa izin</li>
+  <li>Ancaman dan intimidasi digital</li>
+  <li>Pengucilan dalam komunitas online</li>
+</ul>
+
+<h3>Dampak Cyber Bullying</h3>
+<ul>
+  <li>Gangguan kesehatan mental</li>
+  <li>Menurunnya rasa percaya diri</li>
+  <li>Depresi dan kecemasan</li>
+  <li>Penurunan prestasi akademik</li>
+</ul>
+
+<div class="info-box warning">
+<b>Penting:</b> Cyber bullying dapat berdampak jangka panjang terhadap
+kesehatan psikologis korban.
+</div>
+
+<img src="c:\Users\ADVAN\Downloads\b.jpg">
+</section>
+
+<!-- HOAKS -->
+<section id="hoaks" class="fade">
+<h2>Hoaks</h2>
+<p>
+Hoaks adalah informasi palsu yang dibuat dan disebarkan dengan tujuan
+menyesatkan, memprovokasi, atau memanipulasi opini publik. Penyebaran
+hoaks dapat menimbulkan keresahan dan konflik sosial.
+</p>
+
+<h3>Jenis Hoaks</h3>
+<ul>
+  <li>Hoaks politik</li>
+  <li>Hoaks kesehatan</li>
+  <li>Hoaks bencana</li>
+  <li>Hoaks berbasis kebencian</li>
+</ul>
+
+<h3>Ciri-ciri Hoaks</h3>
+<ul>
+  <li>Judul provokatif dan sensasional</li>
+  <li>Sumber tidak jelas</li>
+  <li>Isi tidak didukung data valid</li>
+  <li>Mengajak untuk segera menyebarkan</li>
+</ul>
+
+<img src="c:\Users\ADVAN\Downloads\lt5f2b8cd8920d4.jpg">
+</section>
+
+<!-- PENCEGAHAN -->
+<section id="pencegahan" class="fade">
+<h2>Upaya Pencegahan</h2>
+
+<h3>Menghadapi Cyber Bullying</h3>
+<ul>
+  <li>Tidak membalas pelaku</li>
+  <li>Menyimpan bukti perundungan</li>
+  <li>Melaporkan ke platform terkait</li>
+  <li>Mencari dukungan dari orang terpercaya</li>
+</ul>
+
+<h3>Mencegah Penyebaran Hoaks</h3>
+<ul>
+  <li>Memverifikasi sumber informasi</li>
+  <li>Membaca berita secara menyeluruh</li>
+  <li>Menggunakan situs cek fakta</li>
+  <li>Tidak mudah terprovokasi</li>
+</ul>
+</section>
+
+<!-- KESIMPULAN -->
+<section id="kesimpulan" class="fade">
+<h2>Kesimpulan</h2>
+<p>
+Literasi digital merupakan kunci utama dalam menghadapi tantangan cyber
+bullying dan hoaks. Dengan kemampuan berpikir kritis dan etika digital
+yang baik, masyarakat dapat menciptakan ruang digital yang aman,
+sehat, dan bertanggung jawab.
+</p>
+</section>
+
+<!-- REFERENSI -->
+<section id="referensi" class="fade">
+<h2>Referensi</h2>
+<ul>
+  <li>https://www.kominfo.go.id</li>
+  <li>https://literasidigital.id</li>
+  <li>https://www.mafindo.or.id</li>
+  <li>https://turnbackhoax.id</li>
+  <li>https://www.unesco.org</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2025 | Literasi Digital - Cyber Bullying & Hoaks</p>
+</footer>
+
+<script>
+const fades = document.querySelectorAll('.fade');
+window.addEventListener('scroll',()=>{
+  fades.forEach(el=>{
+    const top = el.getBoundingClientRect().top;
+    if(top < window.innerHeight - 100){
+      el.classList.add('show');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
